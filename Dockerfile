@@ -12,4 +12,4 @@ RUN rm ./BuildTools.jar
 RUN git clone https://github.com/Mayhoon/SpigotServer1.17.git
 RUN cp -r ./SpigotServer1.17/* .
 RUN rm -rf SpigotServer1.17
-ENTRYPOINT ["java","-jar","spigot-1.16.5.jar"]
+ENTRYPOINT ["java","-jar","spigot-1.17.jar"]

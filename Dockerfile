@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install git openjdk-8-jre-headless -y
 RUN apt install curl -y
 RUN curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
-RUN java -jar BuildTools.jar --rev latest
+RUN java -jar BuildTools.jar --rev 1.17
 RUN rm ./BuildTools.jar
 RUN git clone https://github.com/Mayhoon/SpigotServer1.17.git
 RUN cp -r ./SpigotServer1.17/* .

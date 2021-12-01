@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands_plateau": "2021-11-28 12:35:21 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2724
+}
